@@ -5,7 +5,7 @@ import Footer from './footer';
 const Layout = ({ children }) => (
 	<div>
 		<Header />
-		<section className="section has-background-info">
+		<section className="section has-background-black">
 			<div className="container">
 				<div className="columns">
 					<div className="column is-offset-1 is-10">

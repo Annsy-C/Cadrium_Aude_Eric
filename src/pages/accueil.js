@@ -5,7 +5,7 @@ import atelier from '../images/paysage.jpeg';
 const Accueil = () => (
 	<section className="section">
 		<div className="container">
-			<div className="notification is-primary">
+			<div className="notification is-info">
 				<div className="columns">
 					<div className="column centered-content">
 						<h1 className="title">Présentation de l'atelier</h1>

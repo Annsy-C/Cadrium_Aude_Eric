@@ -6,7 +6,7 @@ import parking from '../images/parking.jpeg';
 const Contact = () => (
 	<section className="section">
 		<div className="container">
-			<div className="notification is-primary">
+			<div className="notification is-info">
 				<p>Un parking est disponible juste à côté de la boutique.</p>
 				<br />
 				<div className="columns">
