@@ -61,7 +61,7 @@ function BoxIcon({ icon }) {
 
 function BoxParagraph({ children }) {
     return(
-        <div className="content justified-content">
+        <div className="content centered-content">
             {children}
         </div>
     );

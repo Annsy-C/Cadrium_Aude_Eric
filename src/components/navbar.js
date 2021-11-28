@@ -32,7 +32,7 @@ const Navbar = () =>
 				<div id="navbarBasicExample" className={"navbar-menu" + (isMenuOpen ? " is-active" : "")}>
 					<div className="navbar-start">
 						<a className="navbar-item" href="/cadres_personnalises">
-							Cadres Personnalisés
+							Cadres sur mesure
 						</a>
 						<div className="navbar-item has-dropdown is-hoverable">
 							<a className="navbar-link is-arrowless" href="/cadres_standards">
@@ -52,14 +52,17 @@ const Navbar = () =>
 						</div>
 						<div className="navbar-item has-dropdown is-hoverable">
 							<a className="navbar-link is-arrowless" href="/objets_d_art">
-								Objets d'Art
+								Art et Images
 							</a>
 							<div className="navbar-dropdown">
 								<a className="navbar-item" href="/objets_d_art/art_chats">
-									Chats de Rosina Wachtmeister
+									Les Chats de Rosina
 								</a>
 								<a className="navbar-item" href="/objets_d_art/art_divers">
-									Divers
+									Objets d'art
+								</a>
+								<a className="navbar-item" href="/objets_d_art/illustrations">
+									Illustrations
 								</a>
 							</div>
 						</div>
@@ -67,7 +70,7 @@ const Navbar = () =>
 							Evenements
 						</a>
 						<a className="navbar-item" href="/contact">
-							Contact
+							Nous trouver
 						</a>
 					</div>
 				</div>

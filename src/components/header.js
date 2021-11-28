@@ -1,14 +1,18 @@
 import React from 'react';
-/*import header_pic from '../images/header-1.jpg';*/
+import header_pic from '../images/header-2.jpg';
 import Navbar from './navbar';
 
 const Header = () => (
-	<section className="hero is-fixed-top is-primary is-medium header-image">
+	<section className="hero is-fixed-top is-primary is-small">
 		<div className="hero-body">
 			<div className="container center">
-				{/* <figure class="image">
-  					<img src={header_pic} alt="bandeau" width="100"/>
-				</figure> */}
+				<div className="columns is-centered">
+					<div className="column is-6">
+						<figure class="image">
+							<img src={header_pic} alt="bandeau" />
+						</figure>
+					</div>
+				</div>
 			</div>
 		</div>
 		<Navbar />

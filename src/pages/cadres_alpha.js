@@ -1,4 +1,6 @@
 import React from 'react';
+import CadreBox from '../elements/cadre_box';
+
 import alpha1 from'../images/cadre_visuel/ALPHA/CAL29250.jpg';
 import alpha2 from'../images/cadre_visuel/ALPHA/CAL30250.jpg';
 import alpha3 from'../images/cadre_visuel/ALPHA/CAL32250.jpg';
@@ -12,67 +14,57 @@ import alpha10 from'../images/cadre_visuel/ALPHA/CAL80250.jpg';
 
 
 const CadresAlpha = () => (
-	<section className="section">
-		<div className="columns">
-			<div className="column is-3">
-				<figure className="image">
-					<img src={alpha1} alt="alpha" />
-				</figure>
+	<div>
+		<section className="section">
+			<div className="container">
+				<div className="notification is-info centered-content">
+					<h2 className="title">Cadres Alpha</h2>
+					<p>Cadres en aluminium anodisé pour un rendu optimal au niveau de la couleur.</p>
+					<p>Une collection qui allie élégance et haute qualité.</p>
+				</div>
 			</div>
-			<div className="column is-3">
-				<figure className="image">
-					<img src={alpha2} alt="alpha" />
-				</figure>
+		</section>
+		<section className="section">
+			<div className="columns">
+				<div className="column is-3">
+					<CadreBox src={alpha1} alt="alpha" price="(prix à venir)"/>
+				</div>
+				<div className="column is-3">
+					<CadreBox src={alpha2} alt="alpha" price="(prix à venir)"/>
+				</div>
+				<div className="column is-3">
+					<CadreBox src={alpha3} alt="alpha" price="(prix à venir)"/>
+				</div>
+				<div className="column is-3">
+					<CadreBox src={alpha4} alt="alpha" price="(prix à venir)"/>
+				</div>
 			</div>
-			<div className="column is-3">
-				<figure className="image">
-					<img src={alpha3} alt="alpha" />
-				</figure>
+			<div className="columns">
+				<div className="column is-3">
+					<CadreBox src={alpha5} alt="alpha" price="(prix à venir)"/>
+				</div>
+				<div className="column is-3">
+					<CadreBox src={alpha6} alt="alpha" price="(prix à venir)"/>
+				</div>
+				<div className="column is-3">
+					<CadreBox src={alpha7} alt="alpha" price="(prix à venir)"/>
+				</div>
+				<div className="column is-3">
+					<CadreBox src={alpha8} alt="alpha" price="(prix à venir)"/>
+				</div>
 			</div>
-			<div className="column is-3">
-				<figure className="image">
-					<img src={alpha4} alt="alpha" />
-				</figure>
+			<div className="columns">
+				<div className="column is-3"></div>
+				<div className="column is-3">
+					<CadreBox src={alpha9} alt="alpha" price="(prix à venir)"/>
+				</div>
+				<div className="column is-3">
+					<CadreBox src={alpha10} alt="alpha" price="(prix à venir)"/>
+				</div>
+				<div className="column is-3"></div>
 			</div>
-		</div>
-		<div className="columns">
-			<div className="column is-3">
-				<figure className="image">
-					<img src={alpha5} alt="alpha" />
-				</figure>
-			</div>
-			<div className="column is-3">
-				<figure className="image">
-					<img src={alpha6} alt="alpha" />
-				</figure>
-			</div>
-			<div className="column is-3">
-				<figure className="image">
-					<img src={alpha7} alt="alpha" />
-				</figure>
-			</div>
-			<div className="column is-3">
-				<figure className="image">
-					<img src={alpha8} alt="alpha" />
-				</figure>
-			</div>
-		</div>
-		<div className="columns">
-			<div className="column is-3"></div>
-			<div className="column is-3">
-				<figure className="image">
-					<img src={alpha9} alt="alpha" />
-				</figure>
-			</div>
-			<div className="column is-3">
-				<figure className="image">
-					<img src={alpha10} alt="alpha" />
-				</figure>
-			</div>
-			<div className="column is-3"></div>
-		</div>
-		
-	</section>
+		</section>
+	</div>
 );
 
 export default CadresAlpha;
