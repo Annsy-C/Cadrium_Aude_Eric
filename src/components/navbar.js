@@ -52,7 +52,7 @@ const Navbar = () =>
 						</div>
 						<div className="navbar-item has-dropdown is-hoverable">
 							<a className="navbar-link is-arrowless" href="/objets_d_art">
-								Art et Images
+								Arts et Images
 							</a>
 							<div className="navbar-dropdown">
 								<a className="navbar-item" href="/objets_d_art/art_chats">
@@ -67,7 +67,7 @@ const Navbar = () =>
 							</div>
 						</div>
 						<a className="navbar-item" href="/evenements">
-							Evenements
+							Événements
 						</a>
 						<a className="navbar-item" href="/contact">
 							Nous trouver

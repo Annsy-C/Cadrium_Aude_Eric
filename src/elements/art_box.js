@@ -10,7 +10,7 @@ function ArtBox ({ name="", price, src, alt} ) {
                 <BoxParagraph>
                     <p><em>{price}</em></p>
                 </BoxParagraph>
-                <BoxImage src={src} alt={alt} size="is-4by5"/>     
+                <BoxImage src={src} alt={alt} size="is-4by5"/>    
             </BoxContent>
         </Box>
     );

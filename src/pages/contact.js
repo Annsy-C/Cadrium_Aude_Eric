@@ -1,6 +1,5 @@
 import React from 'react';
 import Card, { CardImage } from '../elements/card';
-import contact from '../images/contact.jpg';
 import parking from '../images/parking.jpeg';
 
 const Contact = () => (
@@ -18,16 +17,11 @@ const Contact = () => (
 			<div className="container">
 				<div className="notification is-info">
 					<div className="columns">
-						<div className="column">
-							<Card height="">
-								<CardImage
-									src={contact}
-									alt="contact"
-									size="is-4by3" />
-							</Card>
+						<div className="column map-responsive">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1132.858229776487!2d1.6954619899173444!3d46.81169934548151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fba1fd86ba69ff%3A0xf593d950461a7d4a!2sCadrium!5e0!3m2!1sfr!2sfr!4v1638185413008!5m2!1sfr!2sfr" width="600" height="450" style={{border:0}} allowfullscreen="" loading="lazy" title="map"></iframe>
 						</div>
 						<div className="column centered-content">
-							<p>Le parking du centre-ville est disponible juste à côté de la boutique.</p>
+							<p>Le parking Centre-ville est disponible juste à côté de la boutique.</p>
 							<p>La première heure de stationnement est gratuite.</p>
 							<br />
 							<Card height="">
