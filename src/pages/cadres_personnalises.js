@@ -3,7 +3,7 @@ import Box, { BoxTitle, BoxParagraph, BoxContent } from '../elements/box';
 import Card, { CardContent, CardImage, CardTitle } from '../elements/card';
 import aluminium from '../images/cadre_visuel/Sur_mesure_Aluminium.jpg';
 import charme from '../images/cadre_visuel/Sur_mesure_Charme.jpg';
-import colors from '../images/cadre_visuel/Sur_mesure_Colors.jpg';
+import colors from '../images/cadre_visuel/Colors.jpg';
 import nature from '../images/cadre_visuel/Sur_mesure_Nature.jpg';
 
 const CadresPersonnalises = () => (

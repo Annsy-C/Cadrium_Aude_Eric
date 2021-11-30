@@ -28,27 +28,27 @@ const CadresScandic = () => (
 		<section className="section">
 			<div className="columns">
 				<div className="column is-3">
-					<CadreBox src={scandic1} alt="alpha" price="(prix à venir)"/>
+					<CadreBox src={scandic1} alt="alpha" price="18,70 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={scandic2} alt="alpha" price="(prix à venir)"/>
+					<CadreBox src={scandic2} alt="alpha" price="19,80 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={scandic3} alt="alpha" price="(prix à venir)"/>
+					<CadreBox src={scandic3} alt="alpha" price="24,30 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={scandic4} alt="alpha" price="(prix à venir)"/>
+					<CadreBox src={scandic4} alt="alpha" price="24,90 €"/>
 				</div>
 			</div>
 			<div className="columns">
 				<div className="column is-3">
-					<CadreBox src={scandic5} alt="alpha" price="(prix à venir)"/>
+					<CadreBox src={scandic5} alt="alpha" price="23,20 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={scandic6} alt="alpha" price="(prix à venir)"/>
+					<CadreBox src={scandic6} alt="alpha" price="28,80 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={scandic7} alt="alpha" price="(prix à venir)"/>
+					<CadreBox src={scandic7} alt="alpha" price="30,30 €"/>
 				</div>
 				<div className="column is-3">
 					<CadreBox src={scandic8} alt="alpha" price="(prix à venir)"/>
@@ -56,13 +56,13 @@ const CadresScandic = () => (
 			</div>
 			<div className="columns is-centered">
 				<div className="column is-3">
-					<CadreBox src={scandic9} alt="alpha" price="(prix à venir)"/>
+					<CadreBox src={scandic9} alt="alpha" price="32,80 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={scandic10} alt="alpha" price="(prix à venir)"/>
+					<CadreBox src={scandic10} alt="alpha" price="39,10 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={scandic11} alt="alpha" price="(prix à venir)"/>
+					<CadreBox src={scandic11} alt="alpha" price="50,80 €"/>
 				</div>
 			</div>
 		</section>

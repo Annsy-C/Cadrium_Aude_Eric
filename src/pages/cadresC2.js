@@ -29,73 +29,74 @@ const CadresC2 = () => (
 					<h2 className="title">Cadres C2</h2>
 					<p>Cadres en aluminium à la fois sobres et modernes.</p>
 					<p>Une collection qui propose des pris attractifs.</p>
+					<p>Disponibles en noir mat brossé et en gris mat brossé.</p>
 				</div>
 			</div>
 		</section>
 		<section className="section">
 			<div className="columns">
 				<div className="column is-3">
-					<CadreBox src={c21} alt="alpha" price="(prix à venir)"/>
+					<CadreBox src={c21} alt="alpha" price="16,10 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={c22} alt="alpha" price="(prix à venir)"/>
+					<CadreBox src={c22} alt="alpha" price="16,10 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={c23} alt="alpha" price="(prix à venir)"/>
+					<CadreBox src={c23} alt="alpha" price="16,70 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={c24} alt="alpha" price="(prix à venir)"/>
-				</div>
-			</div>
-			<div className="columns">
-				<div className="column is-3">
-					<CadreBox src={c25} alt="alpha" price="(prix à venir)"/>
-				</div>
-				<div className="column is-3">
-					<CadreBox src={c26} alt="alpha" price="(prix à venir)"/>
-				</div>
-				<div className="column is-3">
-					<CadreBox src={c27} alt="alpha" price="(prix à venir)"/>
-				</div>
-				<div className="column is-3">
-					<CadreBox src={c28} alt="alpha" price="(prix à venir)"/>
+					<CadreBox src={c24} alt="alpha" price="16,70 €"/>
 				</div>
 			</div>
 			<div className="columns">
 				<div className="column is-3">
-					<CadreBox src={c29} alt="alpha" price="(prix à venir)"/>
+					<CadreBox src={c25} alt="alpha" price="20,00 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={c210} alt="alpha" price="(prix à venir)"/>
+					<CadreBox src={c26} alt="alpha" price="20,00 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={c211} alt="alpha" price="(prix à venir)"/>
+					<CadreBox src={c27} alt="alpha" price="24,80 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={c212} alt="alpha" price="(prix à venir)"/>
+					<CadreBox src={c28} alt="alpha" price="24,80 €"/>
 				</div>
 			</div>
 			<div className="columns">
 				<div className="column is-3">
-					<CadreBox src={c213} alt="alpha" price="(prix à venir)"/>
+					<CadreBox src={c29} alt="alpha" price="23,90 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={c214} alt="alpha" price="(prix à venir)"/>
+					<CadreBox src={c210} alt="alpha" price="23,90 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={c215} alt="alpha" price="(prix à venir)"/>
+					<CadreBox src={c211} alt="alpha" price="30,50 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={c216} alt="alpha" price="(prix à venir)"/>
+					<CadreBox src={c212} alt="alpha" price="30,50 €"/>
+				</div>
+			</div>
+			<div className="columns">
+				<div className="column is-3">
+					<CadreBox src={c213} alt="alpha" price="34,60 €"/>
+				</div>
+				<div className="column is-3">
+					<CadreBox src={c214} alt="alpha" price="34,60 €"/>
+				</div>
+				<div className="column is-3">
+					<CadreBox src={c215} alt="alpha" price="39,40 €"/>
+				</div>
+				<div className="column is-3">
+					<CadreBox src={c216} alt="alpha" price="39,40 €"/>
 				</div>
 			</div>
 			<div className="columns">
 				<div className="column is-3"></div>
 				<div className="column is-3">
-					<CadreBox src={c217} alt="alpha" price="(prix à venir)"/>
+					<CadreBox src={c217} alt="alpha" price="48,10 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={c218} alt="alpha" price="(prix à venir)"/>
+					<CadreBox src={c218} alt="alpha" price="48,10 €"/>
 				</div>
 				<div className="column is-3"></div>
 			</div>

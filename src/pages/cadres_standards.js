@@ -1,7 +1,7 @@
 import React from 'react';
 import Card, { CardContent, CardTitle , CardImage } from '../elements/card';
 
-import alpha from '../images/cadre_visuel/ALPHA/collection_Alpha.jpg';
+import alpha from '../images/cadre_visuel/ALPHA/Cadres_Alpha.jpg';
 import c2 from '../images/cadre_visuel/C2/collection_C2.jpg';
 import scandic from '../images/cadre_visuel/SCANDIC/collection_Scandic.jpg';
 import passe1 from '../images/cadre_visuel/passe_partout1.JPG';
