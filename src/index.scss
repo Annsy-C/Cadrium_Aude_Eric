@@ -103,6 +103,15 @@ $info:  rgb(1, 53, 61);
 
 $family-secondary: 'Didact Gothic';
 
+.zoom{
+  transition: transform .4s;
+  }
+  .zoom:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    }
+
 @import "~bulma/bulma.sass";
 
 .hero .navbar {

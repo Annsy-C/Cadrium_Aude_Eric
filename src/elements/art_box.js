@@ -11,7 +11,7 @@ function ArtBox ({ name="", price, src, alt} ) {
                     <p><em>{price}</em></p>
                 </BoxParagraph>
                 <figure className="image is-4by5" >
-                    <img src={src} alt={alt} />
+                    <img className="zoom" src={src} alt={alt} />
                 </figure>    
             </BoxContent>
         </Box>

@@ -1,5 +1,5 @@
 import React from "react";
-import Box, {BoxImage, BoxParagraph, BoxContent} from "./box";
+import Box, {BoxParagraph, BoxContent} from "./box";
 
 function CadreBox ({price, src, alt} ) {
 
@@ -9,7 +9,9 @@ function CadreBox ({price, src, alt} ) {
                 <BoxParagraph>
                     <p><em>{price}</em></p>
                 </BoxParagraph>
-                <BoxImage src={src} alt={alt}/>     
+                <figure className="image is-4by5" >
+                    <img className="zoom" src={src} alt={alt} />
+                </figure>    
             </BoxContent>
         </Box>
     );
