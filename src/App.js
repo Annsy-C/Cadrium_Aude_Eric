@@ -12,50 +12,53 @@ import CadresScandic from './pages/cadres_scandic';
 import ArtChats from './pages/art_chats';
 import ArtDivers from './pages/art_divers';
 import Illustrations from './pages/illustration';
-import Artistes from './pages/artistes.js'
+import Artistes from './pages/artistes';
+import Router from './components/router';
 
 function App() {
   return (
     <Layout>
-      <Route pathname="/">
-        <Accueil />
-      </Route>
-      <Route pathname="/cadres_personnalises">
-        <CadresPersonnalises />
-      </Route>
-      <Route pathname="/cadres_standards">
-        <CadresStandards />
-      </Route>
-      <Route pathname="/cadres_standards/cadres_alpha">
-        <CadresAlpha />
-      </Route>
-      <Route pathname="/cadres_standards/cadresC2">
-        <CadresC2 />
-      </Route>
-      <Route pathname="/cadres_standards/cadres_scandic">
-        <CadresScandic />
-      </Route>
-      <Route pathname="/objets_d_art">
-        <ObjetsDArt />
-      </Route>
-      <Route pathname="/objets_d_art/art_chats">
-        <ArtChats />
-      </Route>
-      <Route pathname="/objets_d_art/art_divers">
-        <ArtDivers />
-      </Route>
-      <Route pathname="/objets_d_art/illustrations">
-        <Illustrations />
-      </Route>
-      <Route pathname="/objets_d_art/artistes">
-        <Artistes />
-      </Route>
-      <Route pathname="/evenements">
-        <Evenements />
-      </Route>
-      <Route pathname="/contact">
-        <Contact />
-      </Route>
+      <Router>
+        <Route pathname="/">
+          <Accueil />
+        </Route>
+        <Route pathname="/cadres_personnalises">
+          <CadresPersonnalises />
+        </Route>
+        <Route pathname="/cadres_standards">
+          <CadresStandards />
+        </Route>
+        <Route pathname="/cadres_standards/cadres_alpha">
+          <CadresAlpha />
+        </Route>
+        <Route pathname="/cadres_standards/cadresC2">
+          <CadresC2 />
+        </Route>
+        <Route pathname="/cadres_standards/cadres_scandic">
+          <CadresScandic />
+        </Route>
+        <Route pathname="/objets_d_art">
+          <ObjetsDArt />
+        </Route>
+        <Route pathname="/objets_d_art/art_chats">
+          <ArtChats />
+        </Route>
+        <Route pathname="/objets_d_art/art_divers">
+          <ArtDivers />
+        </Route>
+        <Route pathname="/objets_d_art/illustrations">
+          <Illustrations />
+        </Route>
+        <Route pathname="/objets_d_art/artistes">
+          <Artistes />
+        </Route>
+        <Route pathname="/evenements">
+          <Evenements />
+        </Route>
+        <Route pathname="/contact">
+          <Contact />
+        </Route>
+      </Router>
     </Layout>
   );
 }

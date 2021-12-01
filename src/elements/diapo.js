@@ -1,4 +1,4 @@
-import React, {useState, useEffect, cloneElement} from "react";
+import React, {useState, useEffect, useMemo, cloneElement} from "react";
 import Card, { CardImage } from "./card";
 
 import devanture1 from '../images/Devanture_2.jpg';
@@ -7,7 +7,7 @@ import interieur from '../images/Interieur.jpg';
 
 function Diapo ( {alt, size}) {
 
-    const backgroundImages=[devanture1, devanture2, interieur];
+    const backgroundImages=useMemo(() => [devanture1, devanture2, interieur], []);
     const [imageId, setImageId] = useState(0);
     const [timerCount, setTimerCount] = useState(0);
     const [cardImages, setCardImages] = useState(() => {

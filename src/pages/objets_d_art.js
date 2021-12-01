@@ -30,7 +30,7 @@ const ObjetsDArt = () => (
 					</a>
 				</div>
 				<div className="column">
-					<a href="/objets_d_art/illustration">
+					<a href="/objets_d_art/illustrations">
 						<Card>
 							<CardContent>
 								<CardTitle title="Illustrations" />
