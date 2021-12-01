@@ -1,8 +1,8 @@
 import React from "react";
 import { CardContext, CardContextProvider } from "./cardContext";
 
-function CardImage({ src, alt , hoverable=false, size="is-4by3"}) {
-    let classNames="card-image";
+function CardImage({ src, alt , hoverable=false, size="is-4by3", classNames=""}) {
+    classNames +=" card-image";
     if (hoverable) {
         classNames +=" hoverable";
     }

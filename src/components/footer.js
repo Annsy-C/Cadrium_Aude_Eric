@@ -6,7 +6,7 @@ const Footer = () => (
       <footer className="footer center is-primary">
         <div className="content centered-content">
           <p>Boutique située 31 rue Ledru Rollin, 36 OOO Châteauroux</p>
-          <p>cadrium@gmail.com --- 02 54 07 37 56</p>
+          <p>cadrium@gmail.com --- <a href="https://www.facebook.com/cadrium" target="blank">page facebook</a> --- 02 54 07 37 56</p>
           <br />
           <p><em>Site réalisé par : Anne-Sylvie Chollet-Karraz --- contact : annesylvie.chollet@gmail.com</em></p>
         </div>

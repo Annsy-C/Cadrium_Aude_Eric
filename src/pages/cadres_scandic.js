@@ -8,7 +8,6 @@ import scandic4 from '../images/cadre_visuel/SCANDIC/DSC40006.jpg';
 import scandic5 from '../images/cadre_visuel/SCANDIC/DSC42006.jpg';
 import scandic6 from '../images/cadre_visuel/SCANDIC/DSC44006.jpg';
 import scandic7 from '../images/cadre_visuel/SCANDIC/DSC50006.jpg';
-import scandic8 from '../images/cadre_visuel/SCANDIC/DSC54006.jpg';
 import scandic9 from '../images/cadre_visuel/SCANDIC/DSC64006.jpg';
 import scandic10 from '../images/cadre_visuel/SCANDIC/DSC70006.jpg';
 import scandic11 from '../images/cadre_visuel/SCANDIC/DSC80006.jpg';
@@ -51,13 +50,10 @@ const CadresScandic = () => (
 					<CadreBox src={scandic7} alt="alpha" price="30,30 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={scandic8} alt="alpha" price="(prix à venir)"/>
+					<CadreBox src={scandic9} alt="alpha" price="32,80 €"/>
 				</div>
 			</div>
 			<div className="columns is-centered">
-				<div className="column is-3">
-					<CadreBox src={scandic9} alt="alpha" price="32,80 €"/>
-				</div>
 				<div className="column is-3">
 					<CadreBox src={scandic10} alt="alpha" price="39,10 €"/>
 				</div>

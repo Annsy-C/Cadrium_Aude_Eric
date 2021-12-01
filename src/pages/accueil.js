@@ -1,6 +1,6 @@
 import React from 'react';
-import Card, { CardImage } from '../elements/card'
-import atelier from '../images/paysage.jpeg';
+import Diapo from '../elements/diapo';
+
 
 const Accueil = () => (
 	<section className="section">
@@ -21,12 +21,10 @@ const Accueil = () => (
 						<p>Clientèle particuliers et professionnels.</p>
 					</div>
 					<div className="column">
-						<Card>
-							<CardImage 
-								src={atelier} 
-								alt="atelier"
-								size="is-4by3" />
-						</Card>
+						<Diapo
+							alt="boutique"
+							size="is-4by3" 
+						/>
 					</div>
 				</div>
 			</div>

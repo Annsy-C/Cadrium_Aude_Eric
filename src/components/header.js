@@ -8,7 +8,7 @@ const Header = () => (
 			<div className="container center">
 				<div className="columns is-centered">
 					<div className="column is-6">
-						<figure class="image">
+						<figure className="image">
 							<img src={header_pic} alt="bandeau" />
 						</figure>
 					</div>

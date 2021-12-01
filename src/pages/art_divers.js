@@ -1,23 +1,23 @@
 import React from 'react';
 import ArtBox from '../elements/art_box';
 
-import baby from '../images/art_visuel/Baby_blue.jpg';
-import coco from '../images/art_visuel/Coco.jpg';
-import hug from '../images/art_visuel/Hug_too.jpg';
-import rabbit from '../images/art_visuel/Orange_rabbit.jpg';
-import cle1 from '../images/art_visuel/Arbre_Van_Gogh_porte-cle_coeur.jpg';
-import cle2 from '../images/art_visuel/Der_kuss_porte-cle_coeur.jpg';
-import cle3 from '../images/art_visuel/Billy_the_Artiste_blanc_porte-cle.jpg';
-import cle4 from '../images/art_visuel/Billy_the_Artiste_bleu_porte-cle.jpg';
-import cle5 from '../images/art_visuel/Billy_the_Artiste_rouge_porte-cle.jpg';
-import cle6 from '../images/art_visuel/Der_Lebensbaum_grand_porte-cle.jpg';
-import miroir1 from '../images/art_visuel/Miroir_Der_Lebensbaum.jpg';
-import miroir2 from '../images/art_visuel/Miroir_Der_kuss.jpg';
-import miroir3 from '../images/art_visuel/Miroir_Effet_de_soir.jpg';
-import miroir4 from '../images/art_visuel/Miroir_Mucha.jpg';
-import box1 from '../images/art_visuel/City_sunset.jpg';
-import box2 from '../images/art_visuel/Der_Lebensbaum_grande_boite.jpg';
-import box3 from '../images/art_visuel/Birds_on_a_love_wire.jpg';
+import baby from '../images/art_visuel/objet_dart/Baby_blue.jpg';
+import coco from '../images/art_visuel/objet_dart/Coco.jpg';
+import hug from '../images/art_visuel/objet_dart/Hug_too.jpg';
+import rabbit from '../images/art_visuel/objet_dart/Orange_rabbit.jpg';
+import cle1 from '../images/art_visuel/objet_dart/Arbre_Van_Gogh_porte-cle_coeur.jpg';
+import cle2 from '../images/art_visuel/objet_dart/Der_kuss_porte-cle_coeur.jpg';
+import cle3 from '../images/art_visuel/objet_dart/Billy_the_Artiste_blanc_porte-cle.jpg';
+import cle4 from '../images/art_visuel/objet_dart/Billy_the_Artiste_bleu_porte-cle.jpg';
+import cle5 from '../images/art_visuel/objet_dart/Billy_the_Artiste_rouge_porte-cle.jpg';
+import cle6 from '../images/art_visuel/objet_dart/Der_Lebensbaum_grand_porte-cle.jpg';
+import miroir1 from '../images/art_visuel/objet_dart/Miroir_Der_Lebensbaum.jpg';
+import miroir2 from '../images/art_visuel/objet_dart/Miroir_Der_kuss.jpg';
+import miroir3 from '../images/art_visuel/objet_dart/Miroir_Effet_de_soir.jpg';
+import miroir4 from '../images/art_visuel/objet_dart/Miroir_Mucha.jpg';
+import box1 from '../images/art_visuel/objet_dart/City_sunset.jpg';
+import box2 from '../images/art_visuel/objet_dart/Der_Lebensbaum_grande_boite.jpg';
+import box3 from '../images/art_visuel/objet_dart/Birds_on_a_love_wire.jpg';
 
 
 const ArtDivers = () => (

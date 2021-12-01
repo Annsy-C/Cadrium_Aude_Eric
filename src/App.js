@@ -12,6 +12,7 @@ import CadresScandic from './pages/cadres_scandic';
 import ArtChats from './pages/art_chats';
 import ArtDivers from './pages/art_divers';
 import Illustrations from './pages/illustration';
+import Artistes from './pages/artistes.js'
 
 function App() {
   return (
@@ -45,6 +46,9 @@ function App() {
       </Route>
       <Route pathname="/objets_d_art/illustrations">
         <Illustrations />
+      </Route>
+      <Route pathname="/objets_d_art/artistes">
+        <Artistes />
       </Route>
       <Route pathname="/evenements">
         <Evenements />

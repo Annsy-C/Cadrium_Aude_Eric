@@ -1,6 +1,6 @@
 import React from 'react';
 import EvenementBox from '../elements/evenement_box';
-import vitrine from '../images/paysage.jpeg';
+import vitrine from'../images/Devanture_2.jpg';
 
 const Evenements = () => (
 	<section className="section">

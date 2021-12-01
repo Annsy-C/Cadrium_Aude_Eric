@@ -1,10 +1,11 @@
 import React from 'react';
-import Box, { BoxTitle, BoxParagraph, BoxContent } from '../elements/box';
+import Box, { BoxTitle, BoxParagraph, BoxContent, BoxImage } from '../elements/box';
 import Card, { CardContent, CardImage, CardTitle } from '../elements/card';
 import aluminium from '../images/cadre_visuel/Sur_mesure_Aluminium.jpg';
 import charme from '../images/cadre_visuel/Sur_mesure_Charme.jpg';
 import colors from '../images/cadre_visuel/Colors.jpg';
 import nature from '../images/cadre_visuel/Sur_mesure_Nature.jpg';
+import interieur from '../images/Interieur.jpg';
 
 const CadresPersonnalises = () => (
 	<div>
@@ -20,6 +21,9 @@ const CadresPersonnalises = () => (
 							<p>Deux types de verre proposés : classique ou qualité musée.</p>
 						</BoxParagraph>
 					</BoxContent>
+					<div className="column is-4">
+								<BoxImage src={interieur} size="is-4by3" alt="cadres de présentation" />
+							</div>
 				</Box>
 			</div>
 		</section>

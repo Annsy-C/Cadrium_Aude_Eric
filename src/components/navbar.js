@@ -64,6 +64,9 @@ const Navbar = () =>
 								<a className="navbar-item" href="/objets_d_art/illustrations">
 									Illustrations
 								</a>
+								<a className="navbar-item" href="/objets_d_art/artistes">
+									Travaux d'artistes
+								</a>
 							</div>
 						</div>
 						<a className="navbar-item" href="/evenements">

@@ -1,8 +1,9 @@
 import React from 'react';
 import Card, { CardContent, CardTitle , CardImage } from '../elements/card';
-import chat from '../images/art_visuel/chats/chat_general.jpg';
+import chat from '../images/art_visuel/chat_general.jpg';
 import goebel from '../images/art_visuel/goebel.jpg';
-import portrait from '../images/portrait.jpeg';
+import illustrations from '../images/art_visuel/Illustrations.jpg';
+import artiste from '../images/art_visuel/artistes/Matthieu_Marchand.jpg';
 
 
 const ObjetsDArt = () => (
@@ -34,7 +35,17 @@ const ObjetsDArt = () => (
 							<CardContent>
 								<CardTitle title="Illustrations" />
 							</CardContent>
-							<CardImage src={portrait} alt="illustrations" hoverable="true" size="is-4by5"/>
+							<CardImage src={illustrations} alt="illustrations" hoverable="true" size="is-4by5"/>
+						</Card>
+					</a>
+				</div>
+				<div className="column">
+					<a href="/objets_d_art/artistes">
+						<Card>
+							<CardContent>
+								<CardTitle title="Travaux d'artistes" />
+							</CardContent>
+							<CardImage src={artiste} alt="illustrations" hoverable="true" size="is-4by5"/>
 						</Card>
 					</a>
 				</div>
