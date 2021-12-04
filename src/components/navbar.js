@@ -56,16 +56,16 @@ const Navbar = () =>
 							</a>
 							<div className="navbar-dropdown">
 								<a className="navbar-item" href="/objets_d_art/art_chats">
-									Les Chats de Rosina
+									Les Chats de Rosina Wachtmeister
 								</a>
 								<a className="navbar-item" href="/objets_d_art/art_divers">
-									Objets d'art
+									Objets d'art décoratifs
 								</a>
 								<a className="navbar-item" href="/objets_d_art/illustrations">
-									Illustrations
+									Affiches et reproductions
 								</a>
 								<a className="navbar-item" href="/objets_d_art/artistes">
-									Travaux d'artistes
+									Œuvres graphiques et autres travaux
 								</a>
 							</div>
 						</div>

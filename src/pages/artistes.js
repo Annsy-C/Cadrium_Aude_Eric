@@ -9,7 +9,7 @@ const Artistes = () => (
 		<section className="section">
 			<div className="container">
 				<div className="notification is-info centered-content">
-					<h2 className="title"><em>Travaux d'Artistes</em></h2>
+					<h2 className="title"><em>Œuvres graphiques et autres travaux</em></h2>
 				</div>
 			</div>
 		</section>
@@ -19,7 +19,7 @@ const Artistes = () => (
 					<ArtBox name="Matthieu Marchand" src={marchand} alt="chat bd de matthieu marchand" price="230,00 €"/>
 				</div>
 				<div className="column">
-					<ArtBox name="Laurent Rioux" src={rioux} alt="chat bleu de Laurent Rioux" price="690,00 €" />
+					<ArtBox name="Laurent Rioux" src={rioux} alt="chat bleu de Laurent Rioux" price="690,00 €" size=" is-4by3" />
 				</div>
 			</div>
 		</section>

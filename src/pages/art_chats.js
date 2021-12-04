@@ -16,6 +16,7 @@ import meneo from '../images/art_visuel/chats/Meneo_e_Alma.jpg';
 import riposa from '../images/art_visuel/chats/Riposa.jpg';
 import artista from '../images/art_visuel/chats/Artista.jpg';
 import palladia from '../images/art_visuel/chats/Palladia_e_le_sue_amiche.jpg';
+import gioco from '../images/art_visuel/chats/Gioco_di_dadi.jpg';
 import cle1 from '../images/art_visuel/chats/Porte-cle1.jpg';
 import cle2 from '../images/art_visuel/chats/Porte-cle2.jpg';
 import cle3 from '../images/art_visuel/chats/Porte-cle3.jpg';
@@ -35,13 +36,13 @@ const ArtChats = () => (
 		<section className="section">
 			<div className="columns is-centered">
 				<div className="column is-3">
-					<ArtBox name="Artista" src={artista} alt="Artista" price="34,95 €" />
-				</div>
-				<div className="column is-3">
 					<ArtBox name="Mazzo di Fiori" src={mazzo} alt="Mazzo di Fiori" price="39,95 €" />
 				</div>
 				<div className="column is-3">
-					<ArtBox name="Elia" src={elia} alt="Elia" price="39,95 €" />
+					<ArtBox name="Lettura" src={lettura} alt="Lettura" price="34,95 €" />
+				</div>
+				<div className="column is-3">
+					<ArtBox name="Artista" src={artista} alt="Artista" price="34,95 €" />
 				</div>
 				<div className="column is-3">
 					<ArtBox name="Marina" src={marina} alt="Marina" price="44,95 €" />
@@ -49,21 +50,21 @@ const ArtChats = () => (
 			</div>
 			<div className="columns is-centered">
 				<div className="column is-3">
-					<ArtBox name="Amanda" src={amanda} alt="Amanda" price="19,95 €" />
+					<ArtBox name="Luca e Sofia" src={luca} alt="Luca e Sofia" price="29,95 €" />
 				</div>
 				<div className="column is-3">
 					<ArtBox name="Fortunello" src={fortunello} alt="Fortunello" price="19,95 €" />
 				</div>
 				<div className="column is-3">
-					<ArtBox name="Lettura" src={lettura} alt="Lettura" price="34,95 €" />
+					<ArtBox name="Elia" src={elia} alt="Elia" price="39,95 €" />
 				</div>
 				<div className="column is-3">
-					<ArtBox name="Luca e Sofia" src={luca} alt="Luca e Sofia" price="29,95 €" />
+					<ArtBox name="Amanda" src={amanda} alt="Amanda" price="19,95 €" />
 				</div>
 			</div>
 			<div className="columns is-centered">
 				<div className="column is-3">
-					<ArtBox name="Riposa" src={riposa} alt="Riposa" price="19,95 €" />
+					<ArtBox name="Gioco di Dadi" src={gioco} alt="Gioco di Dadi" price="19,95 €" />
 				</div>
 				<div className="column is-3">
 					<ArtBox name="Melitina" src={melitina} alt="Melitina" price="19,95 €" />
@@ -72,7 +73,7 @@ const ArtChats = () => (
 					<ArtBox name="Meneo e Alma" src={meneo} alt="Meneo e Alma" price="27,50 €" />
 				</div>
 				<div className="column is-3">
-					<ArtBox name="Amici per la pelle" src={amici} alt="Amici per la pelle" price="49,95 €" />
+					<ArtBox name="Riposa" src={riposa} alt="Riposa" price="19,95 €" />
 				</div>
 			</div>
 			<div className="columns is-centered">	
@@ -83,7 +84,7 @@ const ArtChats = () => (
 					<ArtBox name="Alma" src={alma} alt="Alma" price="89,00 €" />
 				</div>
 				<div className="column is-4">
-					<ArtBox name="Palladia e le sue amiche" src={palladia} alt="Palladia e le sue amiche" price="8,95 €" />
+					<ArtBox name="Amici per la pelle" src={amici} alt="Amici per la pelle" price="49,95 €" />
 				</div>
 			</div>
 			<div className="columns is-centered">
@@ -101,11 +102,14 @@ const ArtChats = () => (
 				</div>
 			</div>
 			<div className="columns is-centered">
-				<div className="column is-3">
+				<div className="column is-4">
 					<ArtBox name="Porte-clé boîte" src={cle5} alt="Porte-clé boîte" price="8,95 €" />
 				</div>
-				<div className="column is-3">
+				<div className="column is-4">
 					<ArtBox name="Porte-clé boîte" src={cle6} alt="Porte-clé boîte" price="8,95 €" />
+				</div>
+				<div className="column is-4">
+					<ArtBox name="Palladia e le sue amiche" src={palladia} alt="Palladia e le sue amiche" price="8,95 €" />
 				</div>
 			</div>
 		</section>

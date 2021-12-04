@@ -15,6 +15,22 @@ const Contact = () => (
 		</section>
 		<section className="section">
 			<div className="container">
+				<div className="notification is-info centered-content">
+					<h1 className="subtitle">Boutique située 31 rue Ledru Rollin, 36 OOO Châteauroux</h1>
+          			<p>cadrium@gmail.com</p>
+					<div className="columns is-centered">
+					  <div className="column">
+					  	<p><a href="https://www.facebook.com/cadrium" target="blank">page facebook</a></p>
+					  </div>
+					  <div className="column">
+					  	<p>02 54 07 37 56</p>	
+					  </div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section className="section">
+			<div className="container">
 				<div className="notification is-info">
 					<div className="columns">
 						<div className="column map-responsive">

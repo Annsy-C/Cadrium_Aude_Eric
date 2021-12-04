@@ -13,7 +13,7 @@ const ObjetsDArt = () => (
 					<a href="/objets_d_art/art_chats">
 						<Card>
 							<CardContent>
-								<CardTitle title="Les Chats de Rosina" />
+								<CardTitle title="Les Chats de Rosina Wachtmeister" />
 							</CardContent>
 							<CardImage src={chat} alt="objets d'art chat" hoverable="true" size="is-4by5"/>
 						</Card>
@@ -23,7 +23,7 @@ const ObjetsDArt = () => (
 					<a href="/objets_d_art/art_divers">
 						<Card>
 							<CardContent>
-								<CardTitle title="Objets d'Art divers" />
+								<CardTitle title="Objets d'art décoratifs" />
 							</CardContent>
 							<CardImage src={goebel} alt="objet d'art divers" hoverable="true" size="is-4by5"/>
 						</Card>
@@ -33,7 +33,7 @@ const ObjetsDArt = () => (
 					<a href="/objets_d_art/illustrations">
 						<Card>
 							<CardContent>
-								<CardTitle title="Illustrations" />
+								<CardTitle title="Affiches et reproductions" />
 							</CardContent>
 							<CardImage src={illustrations} alt="illustrations" hoverable="true" size="is-4by5"/>
 						</Card>
@@ -43,7 +43,7 @@ const ObjetsDArt = () => (
 					<a href="/objets_d_art/artistes">
 						<Card>
 							<CardContent>
-								<CardTitle title="Travaux d'artistes" />
+								<CardTitle title="Œuvres graphiques et autres travaux" />
 							</CardContent>
 							<CardImage src={artiste} alt="illustrations" hoverable="true" size="is-4by5"/>
 						</Card>

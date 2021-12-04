@@ -1,7 +1,7 @@
 import React from "react";
 import Box, {BoxParagraph, BoxContent, BoxTitle} from "./box";
 
-function ArtBox ({ name="", price, src, alt} ) {
+function ArtBox ({ name="", price, src, alt, size=" is-4by5"} ) {
 
     return(
         <Box background="info">
@@ -10,7 +10,7 @@ function ArtBox ({ name="", price, src, alt} ) {
                 <BoxParagraph>
                     <p><em>{price}</em></p>
                 </BoxParagraph>
-                <figure className="image is-4by5" >
+                <figure className={"image" + size} >
                     <img className="zoom" src={src} alt={alt} />
                 </figure>    
             </BoxContent>
