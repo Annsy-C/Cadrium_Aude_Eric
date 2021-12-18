@@ -9,7 +9,7 @@ function CadreBox ({price, src, alt} ) {
                 <BoxParagraph>
                     <p><em>{price}</em></p>
                 </BoxParagraph>
-                <figure className="image is-4by5" >
+                <figure className="image" >
                     <img className="zoom" src={src} alt={alt} />
                 </figure>    
             </BoxContent>
