@@ -36,8 +36,8 @@ const Illustrations = () => (
 	<section className="section">
 		<div className="container">
 			<div className="columns is-centered">
-				<AfficheBox name="Silver Tree - Alessio Aprile" price="25,50 €" dimension="50 x 70 cm"  src={silver} />
-				<AfficheBox name="Sun Setting over the Seine - Claude Monet" price="25,50 €" dimension="50 x 70 cm" src={sun}/>
+				<AfficheBox name="Silver Tree - Alessio Aprile" price="25,50 €" dimension="50 x 70 cm"  src={silver} size=" is-4by3"/>
+				<AfficheBox name="Sun Setting over the Seine - Claude Monet" price="25,50 €" dimension="50 x 70 cm" src={sun} size=" is-4by3"/>
 			</div>
 			<div className="columns is-centered">
 				<AfficheBox name="Eté - Alphonse Mucha" price="23,75 €" dimension="35 x 70 cm" src={ete} />
@@ -50,43 +50,45 @@ const Illustrations = () => (
 			</div>
 			<div className="columns is-centered">
 				<AfficheBox name="Path in Monet's Garden Giverny - Claude Monet" price="23,75 €" dimension="50 x 50 cm" src={path} />
-				<AfficheBox name="Louisiana Heron - John James Audubon" price="21,15 €" dimension="40 x 60 cm" src={heron} />
+				<AfficheBox name="Foresta Incantata - Luigi Florio" price="11,45 €" dimension="30 x 40 cm" src={incantata} />
 				<AfficheBox name="Enchantress - Erica Pagnoni" price="10,55 €" dimension="30 x 30 cm" src={enchanteress} />
 			</div>
 			<div className="columns is-centered">
 				<AfficheBox name="Snowy Landscape with Woman and Man - Hiroshige" price="23,75 €" dimension="35 x 70 cm" src={snow} />
-				<AfficheBox name="The Wave of Kanagawa - Hokusai" price="31,70 €" dimension="50 x 100 cm" src={wave} />
+				<AfficheBox name="Mandorlo in Fiore Red Variation - Vincent Van Gogh" price="23,75 €" dimension="35 x 70 cm" src={mandorlo} />
 			</div>
 			<div className="columns is-centered">
-				<AfficheBox name="Hayez's Kiss 2.0" price="25,50 €" dimension="50 x 70 cm"  src={kiss} />
 				<AfficheBox name="Waves of Magic - Erica Pagnoni" price="21,15 €" dimension="40 x 60 cm" src={magic}/>
-				<AfficheBox name="Still Life with Flowers and Fruit - Jan Van Huysum" price="25,50 €" dimension="50 x 70 cm" src={flower}/>
+				<AfficheBox name="Kamida Ga Taki Waterfall - Katsuhika Hokusai" price="25,50 €" dimension="50 x 70 cm" src={waterfall}/>
+				<AfficheBox name="Hayez's Kiss 2.0 - Eric Chestier" price="25,50 €" dimension="50 x 70 cm"  src={kiss} />
 			</div>
 			<div className="columns is-centered">
 				<AfficheBox name="Phare du Four de Bretagne - Jean Guichard" price="25,50 €" dimension="50 x 70 cm"  src={bretagne} />
 				<AfficheBox name="The Starry Night - Vincent Van Gogh" price="21,15 €" dimension="40 x 60 cm" src={starry_night}/>
 			</div>
 			<div className="columns is-centered">
+				<AfficheBox name="Still Life with Flowers and Fruit - Jan Van Huysum" price="25,50 €" dimension="50 x 70 cm" src={flower}/>
+				<AfficheBox name="Two Sisters - Auguste Renoir" price="11,45 €" dimension="30 x 40 cm" src={sisters}/>		
 				<AfficheBox name="Girl with a Pearl Earring - Jan Vermeer" price="25,50 €" dimension="50 x 70 cm"  src={pearl} />
-				<AfficheBox name="A Pair of Peacocks in Spring - Imao Keinen" price="23,75 €" dimension="35 x 70 cm" src={peacocks}/>
-				<AfficheBox name="Kamida Ga Taki Waterfall - Katsuhika Hokusai" price="25,50 €" dimension="50 x 70 cm" src={waterfall}/>
 			</div>
 			<div className="columns is-centered">
-				<AfficheBox name="Mandorlo in Fiore Red Variation - Vincent Van Gogh" price="23,75 €" dimension="35 x 70 cm" src={mandorlo} />
+				<AfficheBox name="The Wave of Kanagawa - Hokusai" price="31,70 €" dimension="50 x 100 cm" src={wave} />
 				<AfficheBox name="Wild Flower - Pierre Benson" price="23,75 €" dimension="35 x 70 cm" src={wild_flower} />
 			</div>
 			<div className="columns is-centered">
-				<AfficheBox name="Foresta Incantata - Luigi Florio" price="11,45 €" dimension="30 x 40 cm" src={incantata} />
-				<AfficheBox name="Sails - Pangea Image Set" price="11,45 €" dimension="30 x 40 cm" src={sails} />
-				<AfficheBox name="Male Lion - William Franklin" price="21,15 €" dimension="40 x 60 cm" src={lion} />
+				<AfficheBox name="Launelinie - Wassily Kandinsky" price="25,50 €" dimension="50 x 70 cm" src={launelinie}/>
+				<AfficheBox name="Louisiana Heron - John James Audubon" price="21,15 €" dimension="40 x 60 cm" src={heron} />
 			</div>
 			<div className="columns is-centered">
-				<AfficheBox name="Improvisation sans titre - Wassily Kandinsky" price="23,75 €" dimension="35 x 70 cm"  src={improvisation} />
-				<AfficheBox name="Launelinie - Wassily Kandinsky" price="25,50 €" dimension="50 x 70 cm" src={launelinie}/>
-				<AfficheBox name="Two Sisters - Auguste Renoir" price="11,45 €" dimension="30 x 40 cm" src={sisters}/>
+				<AfficheBox name="Male Lion - William Franklin" price="21,15 €" dimension="40 x 60 cm" src={lion} size=" is-4by3" />
+				<AfficheBox name="Sails - Pangea Image Set" price="11,45 €" dimension="30 x 40 cm" src={sails} size=" is-4by3" />
 			</div>
 			<div className="columns is-centered">
 				<AfficheBox name="Sunset over a Danish Fiord - Peter Monsted" price="31,70 €" dimension="50 x 100 cm" src={sunset} />
+			</div>
+			<div className="columns is-centered">
+				<AfficheBox name="Improvisation sans titre - Wassily Kandinsky" price="23,75 €" dimension="35 x 70 cm"  src={improvisation} />
+				<AfficheBox name="A Pair of Peacocks in Spring - Imao Keinen" price="23,75 €" dimension="35 x 70 cm" src={peacocks}/>
 			</div>
 		</div>
 	</section>
