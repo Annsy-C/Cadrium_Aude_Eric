@@ -3,7 +3,7 @@ import Card, { CardContent, CardTitle , CardImage } from '../elements/card';
 import chat from '../images/art_visuel/chat_general.jpg';
 import goebel from '../images/art_visuel/goebel.jpg';
 import illustrations from '../images/art_visuel/Illustrations.jpg';
-import artiste from '../images/art_visuel/artistes/Matthieu_Marchand.jpg';
+import artiste from '../images/art_visuel/artistes/L_Envol_Laurent_Rioux.jpg';
 
 
 const ObjetsDArt = () => (

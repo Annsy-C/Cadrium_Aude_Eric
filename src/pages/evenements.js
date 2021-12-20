@@ -5,8 +5,9 @@ import vitrine from'../images/Devanture_2.jpg';
 const Evenements = () => (
 	<section className="section">
 		<EvenementBox 
-			title="Horaires Exceptionnels"
-			description="Pour préparer la période des fêtes, Cadrium sera ouvert exceptionellement le dimanche 19 décembre de 10h à 12h et de 14h à 18h30 et le lundi 20 décembre de 14h à 18h30."
+			title="Fermeture Exceptionnelle"
+			description1="Votre magasin fermera ses portes exceptionnellement le mardi 4 janvier 2022."
+			description2="Réouverture prévue le mercredi 5 janvier 2022 à 10h."
 			src={vitrine}
 			alt="vitrine de noël"
 		/>

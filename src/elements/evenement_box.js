@@ -1,7 +1,7 @@
 import React from "react";
 import Box, { BoxContent, BoxTitle, BoxImage, BoxParagraph} from "./box";
 
-function EvenementBox ({ title, description, src, alt} ) {
+function EvenementBox ({ title, description1, description2, src, alt} ) {
 
     return(
         <Box background="info">
@@ -9,7 +9,8 @@ function EvenementBox ({ title, description, src, alt} ) {
                 <div className="column is-half">
                     <BoxContent>
                         <BoxTitle title={title} family={true}/>
-                        <BoxParagraph>{description}</BoxParagraph>
+                        <BoxParagraph>{description1}</BoxParagraph>
+                        <BoxParagraph>{description2}</BoxParagraph>
                     </BoxContent>
                 </div>
                 <div className="column is-half">
