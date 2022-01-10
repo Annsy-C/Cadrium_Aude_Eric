@@ -22,7 +22,6 @@ import heron from '../images/art_visuel/affiches/John_James_Audubon_Louisina_Her
 import waterfall from '../images/art_visuel/affiches/Katsushika_Hokusai_Kamida_ga_taki_waterfall_50_x_70_cm.jpg';
 import incantata from '../images/art_visuel/affiches/Luigi_Florio_Foresta_incantata_30_x_40_cm.jpg';
 import sails from '../images/art_visuel/affiches/Pangea_Images_Set_sails_30_x_40_cm.jpg';
-import sunset from '../images/art_visuel/affiches/Peder_Monsted_Sunset_over_a_Danish_fiord_50_x_100_cm.jpg';
 import sisters from '../images/art_visuel/affiches/Pierre_Auguste_Renoir_Two_sisters_30_x_40_cm.jpg';
 import wild_flower from '../images/art_visuel/affiches/Pierre_Benson_Wild_Flower_35_x_70_cm.jpg';
 import mandorlo from '../images/art_visuel/affiches/Vincent_Van_Gogh_Mandorlo_in_fiore_Red_variation_35_x_70_cm.jpg';
@@ -84,9 +83,6 @@ const Illustrations = () => (
 				<AfficheBox name="Sails - Pangea Image Set" price="11,45 €" dimension="30 x 40 cm" src={sails} size=" is-4by3" />
 			</div>
 			<div className="columns is-centered">
-				<AfficheBox name="Sunset over a Danish Fiord - Peter Monsted" price="31,70 €" dimension="50 x 100 cm" src={sunset} />
-			</div>
-			<div className="columns is-centered">
 				<AfficheBox name="Improvisation sans titre - Wassily Kandinsky" price="23,75 €" dimension="35 x 70 cm"  src={improvisation} />
 				<AfficheBox name="A Pair of Peacocks in Spring - Imao Keinen" price="23,75 €" dimension="35 x 70 cm" src={peacocks}/>
 			</div>
@@ -95,3 +91,12 @@ const Illustrations = () => (
 );
 
 export default Illustrations;
+
+/*
+RESERVE EN CAS DE RESTOCK :
+
+import sunset from '../images/art_visuel/affiches/Peder_Monsted_Sunset_over_a_Danish_fiord_50_x_100_cm.jpg';
+
+<AfficheBox name="Sunset over a Danish Fiord - Peter Monsted" price="31,70 €" dimension="50 x 100 cm" src={sunset} />
+
+*/

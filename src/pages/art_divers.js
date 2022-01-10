@@ -7,11 +7,11 @@ import hug from '../images/art_visuel/objet_dart/Hug_too.jpg';
 import rabbit from '../images/art_visuel/objet_dart/Orange_rabbit.jpg';
 import elephant from '../images/art_visuel/objet_dart/Spring_elephant.png';
 import cle1 from '../images/art_visuel/objet_dart/Arbre_Van_Gogh_porte-cle_coeur.jpg';
-import cle2 from '../images/art_visuel/objet_dart/Der_kuss_porte-cle_coeur.jpg';
-import cle3 from '../images/art_visuel/objet_dart/Billy_the_Artiste_blanc_porte-cle.jpg';
-import cle4 from '../images/art_visuel/objet_dart/Billy_the_Artiste_bleu_porte-cle.jpg';
-import cle5 from '../images/art_visuel/objet_dart/Billy_the_Artiste_rouge_porte-cle.jpg';
-import cle6 from '../images/art_visuel/objet_dart/Der_Lebensbaum_grand_porte-cle.jpg';
+import cle2 from '../images/art_visuel/objet_dart/Le_Baiser_porte_cle_coeur.png';
+import cle3 from '../images/art_visuel/objet_dart/Billy_the_Artiste_blanc_porte_cle.png';
+import cle4 from '../images/art_visuel/objet_dart/Billy_the_Artiste_bleu_porte_cle.png';
+import cle5 from '../images/art_visuel/objet_dart/Billy_the_Artiste_rouge_porte_cle.png';
+import cle6 from '../images/art_visuel/objet_dart/Arbre_de_la_vie_grand_porte_cle.png';
 
 import cle7 from '../images/art_visuel/objet_dart/Arbre_de_la_vie_porte_cle_coeur.png';
 import cle8 from '../images/art_visuel/objet_dart/L_Amandier_argent_porte_cle_coeur.png';
@@ -90,6 +90,9 @@ const ArtDivers = () => (
 		</div>
 		<div className="columns is-centered">
 			<div className="column is-3">
+				<ArtBox name="La Maison de l'Artiste - grand porte-clé" src={cle10} alt="La maison de l'artiste - grand porte-clé" price="9,95 €" />
+			</div>
+			<div className="column is-3">
 				<ArtBox name="Billy the Artiste - porte-clé blanc" src={cle3} alt="Billy the Artiste - porte-clé blanc" price="8,95 €" />
 			</div>
 			<div className="column is-3">
@@ -103,12 +106,6 @@ const ArtDivers = () => (
 			<div className="column is-3">
 					<ArtBox name="Mucha - miroir de poche" src={miroir4} alt="Mucha miroir de poche" price="9,95 €" />
 				</div>
-			<div className="column is-3">
-				<ArtBox name="La Maison de l'Artiste - grand porte-clé" src={cle10} alt="La maison de l'artiste - grand porte-clé" price="9,95 €" />
-			</div>
-			<div className="column is-3">
-				<ArtBox name="Arbre Van Gogh - porte-clé coeur" src={cle1} alt="Arbre Van Gogh - porte-clé coeur" price="9,95 €" />
-			</div>
 			<div className="column is-3">
 				<ArtBox name="Effet de soir - miroir de poche" src={miroir3} alt="Effet de soir miroir de poche" price="9,95 €" />
 			</div>
