@@ -19,6 +19,10 @@ import c215 from '../images/cadre_visuel/C2/C270251.jpg';
 import c216 from '../images/cadre_visuel/C2/C270253.jpg';
 import c217 from '../images/cadre_visuel/C2/C280251.jpg';
 import c218 from '../images/cadre_visuel/C2/C280253.jpg';
+import c219 from '../images/cadre_visuel/C2/C2_10_x_15.jpg';
+import c220 from '../images/cadre_visuel/C2/C2_18_x_24.jpg';
+import c221 from '../images/cadre_visuel/C2/C2_50_x_50.jpg';
+import c222 from '../images/cadre_visuel/C2/C2_70_x_100.jpg';
 
 
 const CadresC2 = () => (
@@ -36,69 +40,81 @@ const CadresC2 = () => (
 		<section className="section">
 			<div className="columns">
 				<div className="column is-3">
-					<CadreBox src={c21} alt="alpha" price="16,10 €"/>
+					<CadreBox src={c219} alt="alpha" price="10,80 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={c22} alt="alpha" price="16,10 €"/>
+					<CadreBox src={c220} alt="alpha" price="14,80 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={c23} alt="alpha" price="16,70 €"/>
+					<CadreBox src={c21} alt="alpha" price="17,90 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={c24} alt="alpha" price="16,70 €"/>
+					<CadreBox src={c22} alt="alpha" price="17,90 €"/>
 				</div>
 			</div>
 			<div className="columns">
 				<div className="column is-3">
-					<CadreBox src={c25} alt="alpha" price="20,00 €"/>
+					<CadreBox src={c23} alt="alpha" price="18,60 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={c26} alt="alpha" price="20,00 €"/>
+					<CadreBox src={c24} alt="alpha" price="18,60 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={c27} alt="alpha" price="24,80 €"/>
+					<CadreBox src={c25} alt="alpha" price="22,20 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={c28} alt="alpha" price="24,80 €"/>
+					<CadreBox src={c26} alt="alpha" price="22,20 €"/>
 				</div>
 			</div>
 			<div className="columns">
 				<div className="column is-3">
-					<CadreBox src={c29} alt="alpha" price="23,90 €"/>
+					<CadreBox src={c27} alt="alpha" price="27,60 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={c210} alt="alpha" price="23,90 €"/>
+					<CadreBox src={c28} alt="alpha" price="27,60 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={c211} alt="alpha" price="30,50 €"/>
+					<CadreBox src={c29} alt="alpha" price="26,70 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={c212} alt="alpha" price="30,50 €"/>
+					<CadreBox src={c210} alt="alpha" price="26,70 €"/>
 				</div>
 			</div>
 			<div className="columns">
 				<div className="column is-3">
-					<CadreBox src={c213} alt="alpha" price="34,60 €"/>
+					<CadreBox src={c211} alt="alpha" price="34,00 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={c214} alt="alpha" price="34,60 €"/>
+					<CadreBox src={c212} alt="alpha" price="34,00 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={c215} alt="alpha" price="39,40 €"/>
+					<CadreBox src={c213} alt="alpha" price="38,50 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={c216} alt="alpha" price="39,40 €"/>
+					<CadreBox src={c214} alt="alpha" price="38,50 €"/>
 				</div>
 			</div>
 			<div className="columns">
-				<div className="column is-3"></div>
 				<div className="column is-3">
-					<CadreBox src={c217} alt="alpha" price="48,10 €"/>
+					<CadreBox src={c215} alt="alpha" price="43,90 €"/>
 				</div>
 				<div className="column is-3">
-					<CadreBox src={c218} alt="alpha" price="48,10 €"/>
+					<CadreBox src={c216} alt="alpha" price="43,90 €"/>
 				</div>
-				<div className="column is-3"></div>
+				<div className="column is-3">
+					<CadreBox src={c217} alt="alpha" price="53,50 €"/>
+				</div>
+				<div className="column is-3">
+					<CadreBox src={c218} alt="alpha" price="53,50 €"/>
+				</div>
+			</div>
+			<div className="columns is-centered">
+				<div className="column is-3">
+					<CadreBox src={c221} alt="alpha" price="37,90 €"/>
+				</div>
+				<div className="column is-3">
+					<CadreBox src={c222} alt="alpha" price="66,50 €"/>
+				</div>
 			</div>
 		</section>
 	</div>
