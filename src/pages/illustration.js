@@ -29,7 +29,19 @@ import starry_night from '../images/art_visuel/affiches/Vincent_Van_Gogh_The_Sta
 import improvisation from '../images/art_visuel/affiches/Wassily_Kandinsky_Improvisation_sans_titre_35_x_70_cm.jpg';
 import launelinie from '../images/art_visuel/affiches/Wassily_Kandinsky_Launelinie_50_x_70_cm.jpg';
 import lion from '../images/art_visuel/affiches/William_Franklin_Male_Lion_40_x_60_cm.jpg';
-
+import courtesan from '../images/art_visuel/affiches/Courtesan_Katsushika_Hokusai_30_x_40.jpg';
+import diafane from '../images/art_visuel/affiches/Diafane_presenze_Giuliano_Censini_30_x_30.jpg';
+import fairy from '../images/art_visuel/affiches/Fairy_of_spring_Erica_Pagnoni_30_x_30.jpg';
+import fiori from '../images/art_visuel/affiches/Fiori_di_magnolia_Cristina_Mavaracchio_30_x_40.jpg';
+import geometrie from '../images/art_visuel/affiches/Geometrie_complesse_Arturo_Armenti_20_x_60.jpg';
+import ivory from '../images/art_visuel/affiches/Ivory_orchids_Jenny_Thomlinson_30_x_40.jpg';
+import lion2 from '../images/art_visuel/affiches/Male_lion_Namibia_Anonymous_30_x_40.jpg';
+import riglessi from '../images/art_visuel/affiches/Riflessi_del_tramonto_Lucas_30_x_40.jpg';
+import seated from '../images/art_visuel/affiches/Seated_beauty_II_Van_Haal_30_x_40.jpg';
+import goddess from '../images/art_visuel/affiches/Shimmering_goddess_Julian_Lauren_50_x_70.jpg';
+import sulla from '../images/art_visuel/affiches/Sulla_spiaggia_d_inverno_Guiliano_Censini_50x50.jpg';
+import vanitie from '../images/art_visuel/affiches/The_Vanitie_50x70.jpg';
+import chat from '../images/art_visuel/affiches/Tournee_du_chat_noir_Theophile_Alexandre_Steinlen.jpg';
 
 const Illustrations = () => (
 	<section className="section">
@@ -49,7 +61,7 @@ const Illustrations = () => (
 			</div>
 			<div className="columns is-centered">
 				<AfficheBox name="Path in Monet's Garden Giverny - Claude Monet" price="25,85 €" dimension="50 x 50 cm" src={path} />
-				<AfficheBox name="Foresta Incantata - Luigi Florio" price="12,85 €" dimension="30 x 40 cm" src={incantata} />
+				<AfficheBox name="Fairy of Spring - Erica Pagnoni" price="11,90 €" dimension="30 x 30 cm" src={fairy} />
 				<AfficheBox name="Enchantress - Erica Pagnoni" price="11,90 €" dimension="30 x 30 cm" src={enchanteress} />
 			</div>
 			<div className="columns is-centered">
@@ -84,7 +96,32 @@ const Illustrations = () => (
 			</div>
 			<div className="columns is-centered">
 				<AfficheBox name="Improvisation sans titre - Wassily Kandinsky" price="25,85 €" dimension="35 x 70 cm"  src={improvisation} />
+				<div className="column">
+					<AfficheBox name="Diafane Presenze - Giuliano Censini" price="11,90 €" dimension="30 x 30 cm" src={diafane} />
+					<AfficheBox name="Sulla Spiaggia d'Inverno - Guiliano Censini" price="25,85 €" dimension="50 x 50 cm" src={sulla} />
+				</div>
 				<AfficheBox name="A Pair of Peacocks in Spring - Imao Keinen" price="25,85 €" dimension="35 x 70 cm" src={peacocks}/>
+			</div>
+			<div className="columns is-centered">
+				<AfficheBox name="Courtesan - Katshushika Hokusai" price="12,85 €" dimension="30 x 40 cm" src={courtesan} />
+				<AfficheBox name="Shimmering Goddess - Julian Lauren" price="27,75 €" dimension="50 x 70 cm" src={goddess}/>
+				<AfficheBox name="Seated Beauty II - Van Haal" price="12,85 €" dimension="30 x 40 cm" src={seated} />
+			</div>
+			<div className="columns is-centered">
+				<AfficheBox name="Male Lion Namibia - Anonymous" price="12,85 €" dimension="30 x 40 cm" src={lion2} />
+				<AfficheBox name="Riglessi del Tramonto - Lucas" price="12,85 €" dimension="30 x 40 cm" src={riglessi} />
+			</div>
+			<div className="columns is-centered">
+				<AfficheBox name="Geometrie Complesse - Arturo Armenti" price="13,85" dimension="20 x 60 cm" src={geometrie} />
+			</div>
+			<div className="columns is-centered">
+				<AfficheBox name="Ivory Orchids - Jenny Thominson" price="12,85 €" dimension="30 x 40 cm" src={ivory} />
+				<AfficheBox name="Foresta Incantata - Luigi Florio" price="12,85 €" dimension="30 x 40 cm" src={incantata} />
+				<AfficheBox name="Fiori di Magnolia - Cristina Mavaracchio" price="12,85 €" dimension="30 x 40 cm" src={fiori} />
+			</div>
+			<div className="columns is-centered">
+				<AfficheBox name="Tournée du Chat Noir - Théophile Alexandre Steinlen" price="12,85 €" dimension="30 x 40 cm" src={chat} />
+				<AfficheBox name="The Vanitie during the America's Cup - Edwin Levick" price="27,75 €" dimension="50 x 70 cm"  src={vanitie} />
 			</div>
 		</div>
 	</section>

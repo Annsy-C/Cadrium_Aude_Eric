@@ -13,6 +13,7 @@ import alpha9 from'../images/cadre_visuel/ALPHA/CAL70250.jpg';
 import alpha10 from'../images/cadre_visuel/ALPHA/CAL80250.jpg';
 import alpha11 from'../images/cadre_visuel/ALPHA/Alpha_18_x_24.jpg';
 import alpha12 from'../images/cadre_visuel/ALPHA/Alpha_50_x_100.jpg';
+import alpha13 from'../images/cadre_visuel/ALPHA/Alpha_10_x_15.jpg';
 
 
 const CadresAlpha = () => (
@@ -29,16 +30,19 @@ const CadresAlpha = () => (
 		</section>
 		<section className="section">
 			<div className="columns">
-				<div className="column is-3">
+				<div className="column">
+					<CadreBox src={alpha13} alt="alpha" price="15,70 €"/>
+				</div>
+				<div className="column">
 					<CadreBox src={alpha11} alt="alpha" price="22,90 €"/>
 				</div>
-				<div className="column is-3">
+				<div className="column">
 					<CadreBox src={alpha1} alt="alpha" price="28,80 €"/>
 				</div>
-				<div className="column is-3">
+				<div className="column">
 					<CadreBox src={alpha2} alt="alpha" price="30,60 €"/>
 				</div>
-				<div className="column is-3">
+				<div className="column">
 					<CadreBox src={alpha3} alt="alpha" price="31,50 €"/>
 				</div>
 			</div>
