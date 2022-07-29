@@ -6,8 +6,8 @@ const Evenements = () => (
 	<section className="section">
 		<EvenementBox 
 			title="Fermeture Exceptionnelle"
-			description1="Votre magasin fermera ses portes exceptionnellement le  vendredi 31 décembre 2021 et le mardi 4 janvier 2022."
-			description2="Réouverture prévue le mercredi 5 janvier 2022 à 10h."
+			description1="Votre magasin fermera ses portes exceptionnellement le  vendredi 29 et le samedi 30 juillet 2022."
+			description2=""
 			src={vitrine}
 			alt="vitrine de noël"
 		/>
