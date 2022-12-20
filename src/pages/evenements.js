@@ -14,7 +14,7 @@ const Evenements = () => (
 			<div className="column">
 				<EvenementBox
 					title="Fêtes de fin d'année"
-					description1="Pour les fêtes, ouverture exceptionnelle de votre boutique le dimanche 18 décembre de 10h à 18h et le lundi 19 décembre de 14h à 18h."
+					description1="Pour les fêtes, votre boutique sera ouverte le 24 décembre de 10h à 16h et le 31 décembre de 10h à 16h."
 					description2="Fermeture exceptionnelle pour congés à partir du 31 décembre au soir, réouverture prévue le mardi 10 janvier."
 					src={noel}
 					alt="noel chateauroux"
