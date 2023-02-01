@@ -8,7 +8,7 @@ const Contact = () => (
 			<div className="container">
 				<div className="notification is-info centered-content">
 					<h2 className="title">CADRIUM vous accueille :</h2>
-					<p><em>Du Mardi au Vendredi de 10h à 12h et de 14h à 18h30</em></p>
+					<p><em>Du Mardi au Vendredi de 10h à 12h et de 14h à 18h</em></p>
 					<p><em>Le Samedi de 10h à 18h30</em></p>
 				</div>
 			</div>
